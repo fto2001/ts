@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>2048 Game</title>
+</head>
+<body>
+    <section class="container">
+        <div class="container-title">
+            <h1 class="container-title__name">2048</h1>
+            <button class="container-title__button" id="resetButton"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+       <div class="board" id="board"></div>
+       <div class="container-score">
+        <div class="score">Score: <span class="tab-score">0</span></div>
+       </div>
+       <div class="container-best-score">
+        <div class="score">Best Score: <span class="best-score">0</span></div>
+       </div>
+    </section>
+    <script src="https://kit.fontawesome.com/0d8cc36a0e.js" crossorigin="anonymous"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="tile-game.js"></script>
+    <script type="module" src="local-storage-data.js"></script>
+    <script type="module" src="game-direction.js"></script>
+    <script type="module" src="game-swipe-and-key.js"></script>
+</body>
+</html>
